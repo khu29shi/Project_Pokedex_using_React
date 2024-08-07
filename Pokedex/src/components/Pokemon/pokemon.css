@@ -9,3 +9,9 @@
     align-items: center;
 }
 
+.pokemon-name {
+    font-size: large;
+    letter-spacing: 0.2rem;
+    color: black;
+}
+

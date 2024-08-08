@@ -2,9 +2,9 @@ import React from 'react'
 
 const Pokemon = ({name, image}) => {
   return (
-    <div>
-      <div>{name}</div>
-      <div><img src={image} alt="" /></div>
+    <div className='pokemon'>
+      <div className="pokemon-name">{name}</div>
+      <div><img src={image} alt="" className="pokemon-img" /></div>
     </div>
   )
 }

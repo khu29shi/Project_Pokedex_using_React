@@ -1,10 +1,10 @@
-import Pokedex from "./components/Pokedex/Pokedex"
+import CustomRoutes from "./routes/CustomRoutes"
 
 
 const App = () => {
   return (
     <div>
-      <Pokedex/>
+      <CustomRoutes/>
     </div>
   )
 }
